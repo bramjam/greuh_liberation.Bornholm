@@ -2553,7 +2553,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=241;
+		items=243;
 		class Item0
 		{
 			position[]={3354.7134,43.722168,10133.419};
@@ -4154,6 +4154,22 @@ class Mission
 			name="military_2_2";
 			text="Oestermarie Base";
 			type="o_support";
+			colorName="ColorEAST";
+		};
+		class Item241
+		{
+			position[]={3523.9077,123.12114,17403.619};
+			name="tower_1_2";
+			text="Radio Tower";
+			type="loc_Transmitter";
+			colorName="ColorEAST";
+		};
+		class Item242
+		{
+			position[]={2726.6851,95.038124,13778.058};
+			name="tower_1_3";
+			text="Radio Tower";
+			type="loc_Transmitter";
 			colorName="ColorEAST";
 		};
 	};
