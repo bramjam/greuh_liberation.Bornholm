@@ -2222,7 +2222,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=271;
+		items=270;
 		class Item0
 		{
 			position[]={3354.7134,43.722168,10133.419};
@@ -3905,25 +3905,17 @@ class Mission
 		};
 		class Item252
 		{
-			position[]={2446.1523,30.4946,9915.7998};
-			name="capture_5_2_5";
-			text="Sorthat";
-			type="n_art";
-			colorName="ColorEAST";
-		};
-		class Item253
-		{
 			position[]={6333.5879,61.382538,5490.0156};
 			name="opfor_point_4_6";
 			type="Empty";
 		};
-		class Item254
+		class Item253
 		{
 			position[]={3696.6423,37.073761,6148.9424};
 			name="opfor_point_4_7";
 			type="Empty";
 		};
-		class Item255
+		class Item254
 		{
 			position[]={4915.459,95.833733,16887.725};
 			name="capture_4_2_1_1";
@@ -3931,7 +3923,7 @@ class Mission
 			type="n_art";
 			colorName="ColorEAST";
 		};
-		class Item256
+		class Item255
 		{
 			position[]={4071.0015,103.91789,14883.7};
 			name="military_2_2_1";
@@ -3939,7 +3931,7 @@ class Mission
 			type="o_support";
 			colorName="ColorEAST";
 		};
-		class Item257
+		class Item256
 		{
 			position[]={1689.8069,6.5724277,15606.83};
 			name="capture_5_1_1_1";
@@ -3947,7 +3939,7 @@ class Mission
 			type="n_art";
 			colorName="ColorEAST";
 		};
-		class Item258
+		class Item257
 		{
 			position[]={4141.0693,98.593193,12777.935};
 			name="factory_1_1_2";
@@ -3955,7 +3947,7 @@ class Mission
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 		};
-		class Item259
+		class Item258
 		{
 			position[]={9588.4961,33.830002,3720.667};
 			name="factory_5";
@@ -3963,7 +3955,7 @@ class Mission
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 		};
-		class Item260
+		class Item259
 		{
 			position[]={8482.416,56.382984,4776.3369};
 			name="military_4";
@@ -3971,13 +3963,13 @@ class Mission
 			type="o_support";
 			colorName="ColorEAST";
 		};
-		class Item261
+		class Item260
 		{
 			position[]={6932.2666,64.790718,16436.297};
 			name="opfor_point_12_37_1";
 			type="Empty";
 		};
-		class Item262
+		class Item261
 		{
 			position[]={9970.2334,111.43533,12844.053};
 			name="factory_4_3_1";
@@ -3985,7 +3977,7 @@ class Mission
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 		};
-		class Item263
+		class Item262
 		{
 			position[]={16645.709,6.1495237,3606.877};
 			name="capture_2_1";
@@ -3993,7 +3985,7 @@ class Mission
 			type="n_art";
 			colorName="ColorEAST";
 		};
-		class Item264
+		class Item263
 		{
 			position[]={10625.604,51.707092,4329.2886};
 			name="military_4_1";
@@ -4001,7 +3993,7 @@ class Mission
 			type="o_support";
 			colorName="ColorEAST";
 		};
-		class Item265
+		class Item264
 		{
 			position[]={12946.646,44.262169,2680.0264};
 			name="tower_3_3_1";
@@ -4009,31 +4001,31 @@ class Mission
 			type="loc_Transmitter";
 			colorName="ColorEAST";
 		};
-		class Item266
+		class Item265
 		{
 			position[]={8837.0313,46.338554,4718.9961};
 			name="opfor_point_12_92_1";
 			type="Empty";
 		};
-		class Item267
+		class Item266
 		{
 			position[]={7225.5732,54.451878,5257.02};
 			name="opfor_point_12_92_2";
 			type="Empty";
 		};
-		class Item268
+		class Item267
 		{
 			position[]={11548.295,117.57525,7476.3735};
 			name="opfor_point_12_92_3";
 			type="Empty";
 		};
-		class Item269
+		class Item268
 		{
 			position[]={392.83289,-0.25290215,8612.0293};
 			name="opfor_airspawn_2_1";
 			type="Empty";
 		};
-		class Item270
+		class Item269
 		{
 			position[]={6653.3721,0.03801547,2646.2002};
 			name="opfor_airspawn_2_2";
