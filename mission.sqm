@@ -2222,7 +2222,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=243;
+		items=271;
 		class Item0
 		{
 			position[]={3354.7134,43.722168,10133.419};
@@ -2531,8 +2531,8 @@ class Mission
 		class Item36
 		{
 			position[]={16422.383,45.412823,9522.7617};
-			name="capture_7";
-			text="Point of interest";
+			name="capture_11";
+			text="Joboland";
 			type="n_art";
 			colorName="ColorEAST";
 		};
@@ -2586,9 +2586,9 @@ class Mission
 		};
 		class Item43
 		{
-			position[]={2837.3628,113.58193,14732.684};
+			position[]={2856.8232,113.46947,14733.354};
 			name="capture_6_1";
-			text="Point of interest";
+			text="Rutsker";
 			type="n_art";
 			colorName="ColorEAST";
 		};
@@ -2694,7 +2694,7 @@ class Mission
 		{
 			position[]={2100.0215,65.45871,15808.434};
 			name="factory_4_1";
-			text="factory";
+			text="Teglkaas factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 		};
@@ -2710,7 +2710,7 @@ class Mission
 		{
 			position[]={4694.4512,105.56216,16212.53};
 			name="factory_4_1_1";
-			text="factory";
+			text="Olsker factory";
 			type="loc_Fuelstation";
 			colorName="ColorEAST";
 		};
@@ -2819,7 +2819,7 @@ class Mission
 		};
 		class Item75
 		{
-			position[]={10094.645,0.001717997,1015.9438};
+			position[]={9252.2354,-0.028796531,1737.0468};
 			name="opfor_airspawn_5";
 			type="Empty";
 		};
@@ -3839,6 +3839,204 @@ class Mission
 		{
 			position[]={19258.287,7.7475781,22330.174};
 			name="respawn_west";
+			type="Empty";
+		};
+		class Item243
+		{
+			position[]={15423.835,67.190689,8967.9404};
+			name="factory_4_2";
+			text="Jobo Factory";
+			type="loc_Fuelstation";
+			colorName="ColorEAST";
+		};
+		class Item244
+		{
+			position[]={9579.7754,161.54692,10087.61};
+			name="tower_3_4_2";
+			text="Radio Tower";
+			type="loc_Transmitter";
+			colorName="ColorEAST";
+		};
+		class Item245
+		{
+			position[]={10484.391,104.70588,11499.676};
+			name="factory_4_3";
+			text="Oesterlars Construction";
+			type="loc_Fuelstation";
+			colorName="ColorEAST";
+		};
+		class Item246
+		{
+			position[]={1962.6143,11.0119,10793.234};
+			name="capture_5_2";
+			text="Sorthat";
+			type="n_art";
+			colorName="ColorEAST";
+		};
+		class Item247
+		{
+			position[]={2289.353,16.329559,10582.202};
+			name="opfor_point_4_1";
+			type="Empty";
+		};
+		class Item248
+		{
+			position[]={2257.6638,16.782745,12178.113};
+			name="opfor_point_4_2";
+			type="Empty";
+		};
+		class Item249
+		{
+			position[]={3930.7429,55.831963,10562.206};
+			name="opfor_point_4_3";
+			type="Empty";
+		};
+		class Item250
+		{
+			position[]={3620.3857,61.981525,8716.0361};
+			name="opfor_point_4_4";
+			type="Empty";
+		};
+		class Item251
+		{
+			position[]={5029.605,104.16988,10266.951};
+			name="opfor_point_4_5";
+			type="Empty";
+		};
+		class Item252
+		{
+			position[]={2446.1523,30.4946,9915.7998};
+			name="capture_5_2_5";
+			text="Sorthat";
+			type="n_art";
+			colorName="ColorEAST";
+		};
+		class Item253
+		{
+			position[]={6333.5879,61.382538,5490.0156};
+			name="opfor_point_4_6";
+			type="Empty";
+		};
+		class Item254
+		{
+			position[]={3696.6423,37.073761,6148.9424};
+			name="opfor_point_4_7";
+			type="Empty";
+		};
+		class Item255
+		{
+			position[]={4915.459,95.833733,16887.725};
+			name="capture_4_2_1_1";
+			text="Olsker";
+			type="n_art";
+			colorName="ColorEAST";
+		};
+		class Item256
+		{
+			position[]={4071.0015,103.91789,14883.7};
+			name="military_2_2_1";
+			text="Rutsker outpost";
+			type="o_support";
+			colorName="ColorEAST";
+		};
+		class Item257
+		{
+			position[]={1689.8069,6.5724277,15606.83};
+			name="capture_5_1_1_1";
+			text="Teglkaas";
+			type="n_art";
+			colorName="ColorEAST";
+		};
+		class Item258
+		{
+			position[]={4141.0693,98.593193,12777.935};
+			name="factory_1_1_2";
+			text="Klemensker factory";
+			type="loc_Fuelstation";
+			colorName="ColorEAST";
+		};
+		class Item259
+		{
+			position[]={9588.4961,33.830002,3720.667};
+			name="factory_5";
+			text="Nexoe Airfield";
+			type="loc_Fuelstation";
+			colorName="ColorEAST";
+		};
+		class Item260
+		{
+			position[]={8482.416,56.382984,4776.3369};
+			name="military_4";
+			text="Aakirbeby Base";
+			type="o_support";
+			colorName="ColorEAST";
+		};
+		class Item261
+		{
+			position[]={6932.2666,64.790718,16436.297};
+			name="opfor_point_12_37_1";
+			type="Empty";
+		};
+		class Item262
+		{
+			position[]={9970.2334,111.43533,12844.053};
+			name="factory_4_3_1";
+			text="Roe Plantage";
+			type="loc_Fuelstation";
+			colorName="ColorEAST";
+		};
+		class Item263
+		{
+			position[]={16645.709,6.1495237,3606.877};
+			name="capture_2_1";
+			text="Balka";
+			type="n_art";
+			colorName="ColorEAST";
+		};
+		class Item264
+		{
+			position[]={10625.604,51.707092,4329.2886};
+			name="military_4_1";
+			text="Aakirbeby Base";
+			type="o_support";
+			colorName="ColorEAST";
+		};
+		class Item265
+		{
+			position[]={12946.646,44.262169,2680.0264};
+			name="tower_3_3_1";
+			text="Radio Tower";
+			type="loc_Transmitter";
+			colorName="ColorEAST";
+		};
+		class Item266
+		{
+			position[]={8837.0313,46.338554,4718.9961};
+			name="opfor_point_12_92_1";
+			type="Empty";
+		};
+		class Item267
+		{
+			position[]={7225.5732,54.451878,5257.02};
+			name="opfor_point_12_92_2";
+			type="Empty";
+		};
+		class Item268
+		{
+			position[]={11548.295,117.57525,7476.3735};
+			name="opfor_point_12_92_3";
+			type="Empty";
+		};
+		class Item269
+		{
+			position[]={392.83289,-0.25290215,8612.0293};
+			name="opfor_airspawn_2_1";
+			type="Empty";
+		};
+		class Item270
+		{
+			position[]={6653.3721,0.03801547,2646.2002};
+			name="opfor_airspawn_2_2";
 			type="Empty";
 		};
 	};
