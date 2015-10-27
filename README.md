@@ -2,7 +2,7 @@
 
 # Liberation for Arma 3
 
-## Current version : 0.911 Bornholm 0.01
+## Current version : 0.91 Bornholm 0.01
 
 ## Overview
 
