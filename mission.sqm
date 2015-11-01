@@ -54,23 +54,25 @@ class Mission
 	randomSeed=10150435;
 	class Intel
 	{
-		timeOfChanges=1800.0002;
-		startWeather=0.44999999;
-		startWind=0.1;
-		startWaves=0.1;
-		forecastWeather=0.30000001;
-		forecastFog=0.1;
-		forecastWind=0.1;
-		forecastWaves=0.1;
-		forecastLightnings=0.1;
-		year=2014;
-		day=14;
-		hour=10;
+		briefingName="@STR_MISSION_TITLE";
+		overviewText="@STR_MISSION_DESCRIPTION";
+		resistanceWest=0;
+		resistanceEast=1;
+		timeOfChanges=28800;
+		startWeather=0.39999998;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.39999998;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
+		year=2038;
+		month=6;
+		day=6;
+		hour=6;
 		minute=0;
-		startFogBase=1;
-		forecastFogBase=1;
-		startFogDecay=0.039999999;
-		forecastFogDecay=0.039999999;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
 	};
 	class Groups
 	{
@@ -2572,7 +2574,7 @@ class Mission
 		{
 			position[]={12917.993,118.38623,8212.3936};
 			name="capture_3_1";
-			text="Point of interest";
+			text="Vestre Skov";
 			type="n_art";
 			colorName="ColorEAST";
 		};
@@ -4096,22 +4098,20 @@ class Intro
 	class Intel
 	{
 		timeOfChanges=1800.0002;
-		startWeather=0.44999999;
+		startWeather=0.30000001;
 		startWind=0.1;
 		startWaves=0.1;
 		forecastWeather=0.30000001;
-		forecastFog=0.1;
 		forecastWind=0.1;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
-		year=2014;
-		day=14;
-		hour=10;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
 		minute=0;
-		startFogBase=1;
-		forecastFogBase=1;
-		startFogDecay=0.039999999;
-		forecastFogDecay=0.039999999;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
 	};
 };
 class OutroWin
@@ -4128,22 +4128,20 @@ class OutroWin
 	class Intel
 	{
 		timeOfChanges=1800.0002;
-		startWeather=0.44999999;
+		startWeather=0.30000001;
 		startWind=0.1;
 		startWaves=0.1;
 		forecastWeather=0.30000001;
-		forecastFog=0.1;
 		forecastWind=0.1;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
-		year=2014;
-		day=14;
-		hour=10;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
 		minute=0;
-		startFogBase=1;
-		forecastFogBase=1;
-		startFogDecay=0.039999999;
-		forecastFogDecay=0.039999999;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
 	};
 };
 class OutroLoose
@@ -4160,21 +4158,19 @@ class OutroLoose
 	class Intel
 	{
 		timeOfChanges=1800.0002;
-		startWeather=0.44999999;
+		startWeather=0.30000001;
 		startWind=0.1;
 		startWaves=0.1;
 		forecastWeather=0.30000001;
-		forecastFog=0.1;
 		forecastWind=0.1;
 		forecastWaves=0.1;
 		forecastLightnings=0.1;
-		year=2014;
-		day=14;
-		hour=10;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
 		minute=0;
-		startFogBase=1;
-		forecastFogBase=1;
-		startFogDecay=0.039999999;
-		forecastFogDecay=0.039999999;
+		startFogDecay=0.013;
+		forecastFogDecay=0.013;
 	};
 };
