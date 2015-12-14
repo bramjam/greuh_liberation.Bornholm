@@ -2,8 +2,7 @@
 
 # Liberation for Arma 3
 
-
-## Current version : 0.916a Bornholm 0.01
+## Current version : 0.917 Bornholm 0.01
 Porting the Liberation Mission to [Bornholm](http://www.armaholic.com/page.php?id=27056)
 (not fully tested yet)
 User feedback would be appreciated.
