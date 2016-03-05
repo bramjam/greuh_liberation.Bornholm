@@ -2,10 +2,11 @@
         <Project name="Liberation">
                 <Package name="Liberation">
         	<Key ID="STR_MISSION_TITLE">
-        		<Original>Liberation 0.917 Bornholm 0.01</Original>
+
+        		<Original>Liberation 0.918 Bornholm 0.01</Original>
         	</Key>
                 <Key ID="STR_MISSION_VERSION">
-                        <Original>v0.917</Original>
+                        <Original>v0.918</Original>
                 </Key>
                 <Key ID="STR_MISSION_DESCRIPTION">
                         <Original>With the power of Freedom and Democracy you shall liberate Altis from the CSAT oppression.</Original>
