@@ -27,6 +27,7 @@ recalculate_caps = compileFinal preprocessFileLineNumbers "scripts\server\resour
 
 // Secondary objectives
 fob_hunting = compileFinal preprocessFileLineNumbers "scripts\server\secondary\fob_hunting.sqf";
+convoy_hijack = compileFinal preprocessFileLineNumbers "scripts\server\secondary\convoy_hijack.sqf";
 
 // Sector
 attack_in_progress_fob = compileFinal preprocessFileLineNumbers "scripts\server\sector\attack_in_progress_fob.sqf";
@@ -43,6 +44,7 @@ wait_to_spawn_sector = compileFinal preprocessFileLineNumbers "scripts\server\se
 [] spawn compileFinal preprocessFileLineNumbers "scripts\server\battlegroup\random_battlegroups.sqf";
 [] spawn compileFinal preprocessFileLineNumbers "scripts\server\battlegroup\readiness_increase.sqf";
 [] spawn compileFinal preprocessFileLineNumbers "scripts\server\game\apply_default_permissions.sqf";
+[] spawn compileFinal preprocessFileLineNumbers "scripts\server\game\apply_saved_scores.sqf";
 [] spawn compileFinal preprocessFileLineNumbers "scripts\server\game\capture_vehicles.sqf";
 [] spawn compileFinal preprocessFileLineNumbers "scripts\server\game\clean.sqf";
 [] spawn compileFinal preprocessFileLineNumbers "scripts\server\game\cleanup_vehicles.sqf";

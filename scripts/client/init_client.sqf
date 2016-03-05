@@ -1,4 +1,5 @@
 [] call compileFinal preprocessFileLineNumbers "scripts\client\misc\init_markers.sqf";
+[] call compileFinal preprocessFileLineNumbers "arsenal.sqf";
 
 if ( typeOf player == "VirtualSpectator_F" ) exitWith {
 	[] spawn compileFinal preprocessFileLineNumbers "scripts\client\markers\empty_vehicles_marker.sqf";
@@ -17,6 +18,7 @@ respawn_lhd = compileFinal preprocessFileLineNumbers "scripts\client\spawn\respa
 spawn_camera = compileFinal preprocessFileLineNumbers "scripts\client\spawn\spawn_camera.sqf";
 cinematic_camera = compileFinal preprocessFileLineNumbers "scripts\client\ui\cinematic_camera.sqf";
 write_credit_line = compileFinal preprocessFileLineNumbers "scripts\client\ui\write_credit_line.sqf";
+do_load_box = compileFinal preprocessFileLineNumbers "scripts\client\ammoboxes\do_load_box.sqf";
 
 [] spawn compileFinal preprocessFileLineNumbers "scripts\client\actions\action_manager.sqf";
 [] spawn compileFinal preprocessFileLineNumbers "scripts\client\actions\intel_manager.sqf";
@@ -47,10 +49,6 @@ write_credit_line = compileFinal preprocessFileLineNumbers "scripts\client\ui\wr
 [] spawn compileFinal preprocessFileLineNumbers "scripts\client\spawn\redeploy_manager.sqf";
 [] spawn compileFinal preprocessFileLineNumbers "scripts\client\ui\ui_manager.sqf";
 [] spawn compileFinal preprocessFileLineNumbers "scripts\client\ui\tutorial_manager.sqf";
-
-if ( typeof player == commander_classname ) then {
-	[] spawn compileFinal preprocessFileLineNumbers "scripts\client\misc\delete_groups.sqf";
-};
 
 player addMPEventHandler ["MPKilled", {_this spawn kill_manager}];
 
